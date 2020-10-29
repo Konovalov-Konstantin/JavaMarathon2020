@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Task3 {
     public static void main(String[] args) {
         int i = 0;
+        Scanner sc = new Scanner(System.in);
         while (i < 5) {
             System.out.println("Введите два числа");
             i++;
-            Scanner sc = new Scanner(System.in);
             double a = sc.nextDouble();
             double b = sc.nextDouble();
                 if (b == 0) {
