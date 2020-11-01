@@ -6,14 +6,15 @@ public class Airplane {
 
     public static void compareAirplanes(Airplane a1, Airplane a2) {
         if (a1.length < a2.length) {
-            System.out.println(a2.length);
+            System.out.println("Второй самолет длиннее, его длина = " + a2.length + " м");
+        } else if (a1.length > a2.length) {
+            System.out.println("Первый самолет длиннее, его длина = " + a1.length + " м");
         } else {
-            System.out.println(a1.length);
+            System.out.println("Длины самолетов равны");
         }
     }
 
     Airplane(String producer, int year, int length, int weight) {
-        fuel = 0;
         this.producer = producer;
         this.year = year;
         this.length = length;
