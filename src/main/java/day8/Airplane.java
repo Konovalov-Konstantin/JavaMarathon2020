@@ -5,15 +5,15 @@ public class Airplane {
     private int year, length, weight, fuel;
 
     Airplane(String producer, int year, int length, int weight) {
-        int fuel;
         this.producer = producer;
         this.year = year;
         this.length = length;
         this.weight = weight;
     }
+
     @Override
-    public String toString () {
-        return ("Изготовитель " + producer +"\n"+ "Год выпуска " + year+"\n" + "Длина " + length+"\n"+
+    public String toString() {
+        return ("Изготовитель " + producer + "\n" + "Год выпуска " + year + "\n" + "Длина " + length + "\n" +
                 "Вес " + weight);
     }
 
