@@ -12,7 +12,7 @@ public class Student extends Human {
         this.group = group;
     }
     public void printInfo () {
-        System.out.println("Этот человек с именем " + super.getName());
+        super.printInfo();
         System.out.println("Этот студент с именем " + super.getName());
     }
 }
